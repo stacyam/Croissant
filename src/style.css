@@ -1,0 +1,41 @@
+body {
+  background-color: burlywood;
+}
+.container {
+  padding: 40px;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+a {
+  color: rgb(76, 52, 18);
+  font-size: 20px;
+}
+p {
+  padding: 20px;
+}
+.homepage,
+.email {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.email {
+  font-size: 25px;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
