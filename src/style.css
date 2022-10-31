@@ -3,6 +3,7 @@ body {
 }
 .container {
   padding: 40px;
+  max-width: 1200px;
 }
 h1 {
   text-align: center;
@@ -13,6 +14,9 @@ img {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
+}
+.croissant {
+  margin: 0 auto;
 }
 .nav-links {
   display: flex;
@@ -25,6 +29,8 @@ a {
 }
 p {
   padding: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 .homepage,
 .email {
@@ -38,4 +44,8 @@ p {
 }
 a:hover {
   text-decoration: underline;
+}
+.photo-header,
+.contact-header {
+  padding-bottom: 10px;
 }
